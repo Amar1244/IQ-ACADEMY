@@ -489,7 +489,6 @@
             // const apiUrl = `https://${projectId}.api.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`;
             const apiUrl = `https://${projectId}.apicdn.sanity.io/v${apiVersion}/data/query/${dataset}?query=${query}`;
 
-
             fetch(apiUrl)
                 .then(response => response.json())
                 .then(data => {
